@@ -1,5 +1,6 @@
 class City:
-    def __init__(self, name, status):
+    def __init__(self, id=0, name="", status=1):
+        self.id = id
         self.name = name
         self.status = status
 
